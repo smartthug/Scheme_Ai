@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #DEF2F1;
+  --card: #FEFFFF;
+  --primary: #2B7A78;
+  --accent: #3AAFA9;
+  --ink: #17252A;
+}
+
+body {
+  color: var(--ink);
+  background: var(--bg);
+}
+
+/* Smooth focus for accessibility */
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #2B7A78;
+  outline-offset: 2px;
+}
